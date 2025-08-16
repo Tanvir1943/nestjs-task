@@ -4,7 +4,7 @@ import { INestApplicationContext } from '@nestjs/common';
 
 export class SocketIoAdapter extends IoAdapter {
 
-  private readonly allowedOrigin = 'http://localhost:3000';
+  private readonly allowedOrigin = 'https://taskmanagement-frontend-ten.vercel.app/';
 
   constructor(app: INestApplicationContext) {
     super(app);
